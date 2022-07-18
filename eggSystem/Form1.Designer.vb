@@ -43,7 +43,6 @@ Partial Class Form1
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.EggDataSet = New eggSystem.EggDataSet()
         Me.EggBindingSource = New System.Windows.Forms.BindingSource(Me.components)
@@ -229,22 +228,12 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(400, 529)
+        Me.Button3.Location = New System.Drawing.Point(543, 529)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(111, 46)
         Me.Button3.TabIndex = 18
         Me.Button3.Text = "NEW"
         Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(556, 529)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(111, 46)
-        Me.Button4.TabIndex = 19
-        Me.Button4.Text = "SAVE"
-        Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
@@ -300,7 +289,6 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(861, 587)
         Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DataGridView1)
@@ -351,7 +339,6 @@ Partial Class Form1
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents EggDataSet As EggDataSet
     Friend WithEvents EggBindingSource As BindingSource
